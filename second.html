@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+  <style>
+    h1{color:aqua;}
+     </style>
+  <link rel ="stylesheet" href="third.css">
+</head>
+<body>
+
+
+    <h1 style="color:purple; font: family;">Welcome</h1>
+  <h2>Student Registration</h2>
+  <p>hello</p>
+  <p id="first">SNIST</p>
+  <p class="main">HTML
+    <p class="sub">CSS</p>
+    <p class="sub">JS</p>
+    </p>
+    </a href="www.google.com">google</a>
+  <form action="process_registration.php" method="POST">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <p><label for="first-name">First Name:</label></p>
+      <input type="text" id="first-name" name="first-name" required><br><br>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required><br><br>
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <label for="other">Other</label><br><br>
+
+      <label for="date-of-birth">Date of Birth:</label>
+      <input type="date" id="date-of-birth" name="date-of-birth" required><br><br>
+
+      <label for="nationality">Nationality:</label>
+      <select id="nationality" name="nationality" required>
+        <option value="">Select your nationality</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="ca">Canada</option>
+        <!-- Add more options here -->
+      </select><br><br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Information</legend>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required><br><br>
+
+      <label for="emergency-contact">Emergency Contact:</label>
+      <input type="text" id="emergency-contact" name="emergency-contact" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Educational Information</legend>
+      <label for="school">School/University:</label>
+      <input type="text" id="school" name="school" required><br><br>
+
+      <label for="major">Major/Field of Study:</label>
+      <input type="text" id="major" name="major" required><br><br>
+
+      <label for="year">Year of Study:</label>
+      <select id="year" name="year" required>
+        <option value="">Select your year of study</option>
+        <option value="1">First Year</option>
+        <option value="2">Second Year</option>
+        <option value="3">Third Year</option>
+        <option value="4">Fourth Year</option>
+        <!-- Add more options here -->
+      </select><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Additional Information</
